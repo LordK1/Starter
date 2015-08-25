@@ -1,0 +1,29 @@
+{
+  "name": "Starter",
+  "version": "0.0.0",
+  "authors": [
+    "LordK1 <keyvan.ghanizadeh@gmail.com>"
+  ],
+  "description": "Starter Django Template with Python3.4, Django1.8.4, Bower, PostgerSQL and etc.",
+  "keywords": [
+    "Python",
+    "Django",
+    "Bower",
+    "NodeJs",
+    "PostgerSQL"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}
