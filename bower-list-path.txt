@@ -1,0 +1,12 @@
+
+  'animate.css': 'components/animate.css/animate.css',
+  bootstrap: [
+    'components/bootstrap/less/bootstrap.less',
+    'components/bootstrap/dist/js/bootstrap.js'
+  ],
+  'font-awesome': [
+    'components/font-awesome/less/font-awesome.less',
+    'components/font-awesome/scss/font-awesome.scss'
+  ],
+  jquery: 'components/jquery/dist/jquery.js'
+
