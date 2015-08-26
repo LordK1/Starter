@@ -9,5 +9,5 @@ INSTALLED_APPS += (
 )
 # Django Debug Panel Middleware
 MIDDLEWARE_CLASSES += (
-    'debug_toolbar.base.',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
