@@ -8,14 +8,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ project_name }} Django Template with Python 3.4, Django 1.8.4, Bower, Bootstrap and etc.">
+    <meta name="description"
+          content="{{ project_name }} Django Template with Python 3.4, Django 1.8.4, Bower, Bootstrap and etc.">
     <meta name="author" content="LordK1">
 
-    <title>{{ project_name }} - {% block title %}
+    <title>{{ project_name }} -
+        {% templatetag openblock %} block title {% templatetag closeblock %}
+        {% templatetag openblock %} endblock {% templatetag closeblock %}
+    </title>
 
-    {% endblock %}</title>
-
-    {% stylesheet 'styles' %}
+    {% templatetag openblock %} stylesheet 'styles' {% templatetag closeblock %}
     <!-- Custom CSS -->
     <style>
         body {
@@ -84,11 +86,11 @@
 
 </div>
 <!-- /.container -->
-{% javascript 'scripts' %}
+{% templatetag openblock %} javascript 'scripts' {% templatetag closeblock %}
 
-{% block scripts %}
+{% templatetag openblock %} block scripts {% templatetag closeblock %}
 
-{% endblock %}
+{% templatetag openblock %} endblock {% templatetag closeblock %}
 
 </body>
 
