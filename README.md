@@ -1,7 +1,7 @@
 Starter
 ===================
 ![Django 1.8.4](http://img.shields.io/badge/Django-1.8.4-0C4B33.svg)
-[![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg)](http://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 [![Bower](https://img.shields.io/bower/v/bootstrap.svg)]()
 [![PyPI](https://img.shields.io/pypi/wheel/Django.svg)]()
 [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
