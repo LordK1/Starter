@@ -14,7 +14,7 @@ Create Your Project
 
 to create a new Django project, run the following command replacing PROJECT_NAME with your actual project name:
 
-    $ django-admin.py startproject --template=https://github.com/LordK1/Starter/archive/master.zip  --extension=py,rst,md,txt,html,json <project_name>
+    $ django-admin.py startproject --template=https://github.com/LordK1/Starter/archive/master.zip  --extension=py,rst,md,txt,html,json,env <project_name>
 
 Afterwards please reference the actual `README.md` you just created in your new project folder, all the references to "{{ project_name }}" will be changed accordingly.
 
@@ -71,12 +71,33 @@ Install Postgres for your OS [here](http://www.postgresql.org/download/).
   
 Configurate env file
 --------------------
-for run 
+Before you could be able to run and test project locally, should make configrate local.env file in settings folder 
+	
+	# Goto `project_name` folder and then settings folder
+	cd project_name/settings/
+	# Move local.sample.env into local.env
+	mv local.sample.env local.env
+	# Custom environment variables with your values
+	gedit local.env
 
 
+
+Run project locally in dev environment
+--------------------------------------
+For your easiest way make runnabel manage.py as terminal script with command 
+	
+	cd project_name
+	sudo chmod 755 manage.py 
+	enter your password
+	# Then use runserver command 
+	./manage.py runserver 
+
+you should see output like below 
+
+
+---------------------------------------------------------------------------------
 Refrences
 -------------
-
 1. Tanks and Inspired by
 2. Two Scoops of Django 1.8 [Book][9][django-two-scoops-project][8]
 3. alot of tanks from [django-kevin][4] very helpful documentions in  
@@ -100,6 +121,3 @@ Refrences
   [11]:http://django-environ.readthedocs.org/en/latest/
   [12]:https://daneden.github.io/animate.css/
   [13]:http://django-extensions.readthedocs.org/en/latest/
-  
-
-
