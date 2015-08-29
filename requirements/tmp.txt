@@ -1,6 +1,5 @@
-"""
- All requirements for {{ project_name }} project.
-"""
+# All requirements for {{ project_name }} project.
+
 Django==1.8.4
 django-admin-bootstrapped==2.5.4
 django-authtools==1.2.0
