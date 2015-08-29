@@ -94,6 +94,18 @@ For your easiest way make runnabel manage.py as terminal script with command
 
 you should see output like below 
 
+> Performing system checks...
+> 
+> System check identified no issues (0 silenced).
+> 
+> You have unapplied migrations; your app may not work properly until
+> they are applied. Run 'python manage.py migrate' to apply them.
+> 
+> August 29, 2015 - 12:02:33 Django version 1.8.4, using settings
+> 'FullishTask.settings.development' Starting development server at
+> http://127.0.0.1:8000/ Quit the server with CONTROL-C.
+
+
 
 ---------------------------------------------------------------------------------
 Refrences
