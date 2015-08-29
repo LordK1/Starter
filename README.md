@@ -100,9 +100,9 @@ Refrences
 -------------
 1. Tanks and Inspired by
 2. Two Scoops of Django 1.8 [Book][9][django-two-scoops-project][8]
-3. alot of tanks from [django-kevin][4] very helpful documentions in  
+3. a lot of tanks from [django-kevin][4] for helpful documentions in  
 4. [Caktus][2] website and [repository][5] very helpful package in
-5. fully helpfull documents on [django-extesion][13]
+5. fully helpful documents on [django-extesion][13]
 6. [The Twelve Factors][6]
 7. [django-bower][10] 
 8. [django-environ][11]
