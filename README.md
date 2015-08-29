@@ -84,11 +84,15 @@ Before you could be able to run and test project locally, should make configrate
 
 Run project locally in dev environment
 --------------------------------------
-For your easiest way make runnabel manage.py as terminal script with command 
+For your convenience, and others you can make runnable manage.py as terminal script with command :
 	
 	cd project_name
 	sudo chmod 755 manage.py 
 	enter your password
+	# make sure running correct virtualenv & check your current version of python
+	workon {{ project_name }}-dev & python --versin
+	# make and migrate with database
+	./manage.py makemigrations & ./manage.py migrate
 	# Then use runserver command 
 	./manage.py runserver 
 
@@ -120,16 +124,16 @@ Refrences
 8. [django-environ][11]
 
 
-[1]: https://www.djangoproject.com/
-[2]: https://www.python.org/
-[3]: https://www.caktusgroup.com/
-[4]: https://github.com/imkevinxu/django-kevin
-[5]: https://github.com/caktus/django-project-template
-[6]: http://12factor.net/
-[7]: https://github.com/nvbn/django-bower
-[8]: http://getbootstrap.com/
-[9]: http://twoscoopspress.org/products/two-scoops-of-django-1-8
-[10]:https://django-bower.readthedocs.org/en/latest/
-[11]:http://django-environ.readthedocs.org/en/latest/
-[12]:https://daneden.github.io/animate.css/
-[13]:http://django-extensions.readthedocs.org/en/latest/
+  [1]: https://www.djangoproject.com/
+  [2]: https://www.python.org/
+  [3]: https://www.caktusgroup.com/
+  [4]: https://github.com/imkevinxu/django-kevin
+  [5]: https://github.com/caktus/django-project-template
+  [6]: http://12factor.net/
+  [7]: https://github.com/nvbn/django-bower
+  [8]: http://getbootstrap.com/
+  [9]:http://twoscoopspress.org/products/two-scoops-of-django-1-8
+  [10]:https://django-bower.readthedocs.org/en/latest/
+  [11]:http://django-environ.readthedocs.org/en/latest/
+  [12]:https://daneden.github.io/animate.css/
+  [13]:http://django-extensions.readthedocs.org/en/latest/
