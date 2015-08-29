@@ -119,17 +119,17 @@ Refrences
 7. [django-bower][10] 
 8. [django-environ][11]
 
---------------------
-  [1]: https://www.djangoproject.com/
-  [2]: https://www.python.org/
-  [3]: https://www.caktusgroup.com/
-  [4]: https://github.com/imkevinxu/django-kevin
-  [5]: https://github.com/caktus/django-project-template
-  [6]: http://12factor.net/
-  [7]: https://github.com/nvbn/django-bower
-  [8]: http://getbootstrap.com/
-  [9]:http://twoscoopspress.org/products/two-scoops-of-django-1-8
-  [10]:https://django-bower.readthedocs.org/en/latest/
-  [11]:http://django-environ.readthedocs.org/en/latest/
-  [12]:https://daneden.github.io/animate.css/
-  [13]:http://django-extensions.readthedocs.org/en/latest/
+
+[1]: https://www.djangoproject.com/
+[2]: https://www.python.org/
+[3]: https://www.caktusgroup.com/
+[4]: https://github.com/imkevinxu/django-kevin
+[5]: https://github.com/caktus/django-project-template
+[6]: http://12factor.net/
+[7]: https://github.com/nvbn/django-bower
+[8]: http://getbootstrap.com/
+[9]: http://twoscoopspress.org/products/two-scoops-of-django-1-8
+[10]:https://django-bower.readthedocs.org/en/latest/
+[11]:http://django-environ.readthedocs.org/en/latest/
+[12]:https://daneden.github.io/animate.css/
+[13]:http://django-extensions.readthedocs.org/en/latest/
