@@ -2,8 +2,11 @@ Starter
 ===================
 ![Django 1.8.4](http://img.shields.io/badge/Django-1.8.4-0C4B33.svg)
 [![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg)](http://opensource.org/licenses/MIT)
+[![Bower](https://img.shields.io/bower/v/bootstrap.svg)]()
+[![PyPI](https://img.shields.io/pypi/wheel/Django.svg)]()
+[![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
 
-Starter is fully customized djanto stratproject template. It is built with [Python][2] using the [Django Web Framework][1].
+Starter is fully customized django stratproject template. It is built with [Python][2] using the [Django Web Framework][1].
 
 Create Your Project
 -------------
@@ -11,7 +14,7 @@ Create Your Project
 
 to create a new Django project, run the following command replacing PROJECT_NAME with your actual project name:
 
-    $ django-admin.py startproject --template=https://github.com/LordK1/Starter  --extension=py,rst,md,txt,html,json <project_name>
+    $ django-admin.py startproject --template=https://github.com/LordK1/Starter/master.zip  --extension=py,rst,md,txt,html,json <project_name>
 
 Afterwards please reference the actual `README.md` you just created in your new project folder, all the references to "{{ project_name }}" will be changed accordingly.
 
@@ -85,10 +88,6 @@ Refrences
 7. [django-environ][11]
 
 --------------------
-#### <i class="icon-file"></i> Create a document
-
-
-
   [1]: https://www.djangoproject.com/
   [2]: https://www.python.org/
   [3]: https://www.caktusgroup.com/
