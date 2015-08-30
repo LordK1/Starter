@@ -10,9 +10,9 @@ Starter is fully customized django stratproject template. It is built with [Pyth
 
 
 
-<i class="icon-pencil"></i> Quick Installtion :
+<i class="icon-pencil"></i> Quick Installation :
 ===============================================
-for quick installtion of virtualenv and all dependencies you can use below commands :
+for quick installation of virtualenv and all dependencies you can use below commands :
 	
 	$ mkvirtualenv -p $(which python3.4) {{ project_name }}-venv
 	$ workon {{ project_name }}-venv
@@ -27,7 +27,7 @@ for quick installtion of virtualenv and all dependencies you can use below comma
 	$ bower install 
  	$ python manage.py runserver
 
-Goodluck .
+Good luck.
 
 
 
@@ -138,9 +138,9 @@ you should see output like below
 References
 -------------
 1. Thanks and Inspired by Two Scoops of Django 1.8 [Book][9][django-two-scoops-project][8]
-2. alot of tanks from [django-kevin][4] for helpful documentions in  
+2. a lot of tanks from [django-kevin][4] for helpful documentations in  
 3. [Caktus][2] website and [repository][5] for very helpful packages
-4. fully helpful documentions on [django-extesion][13]
+4. fully helpful documentations on [django-extesion][13]
 5. [The Twelve Factors][6]
 6. [django-bower][10] 
 7. [django-environ][11]
