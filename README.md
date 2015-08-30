@@ -6,7 +6,7 @@ Starter
 [![PyPI](https://img.shields.io/pypi/wheel/Django.svg)]()
 [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
 
-Starter is fully customized django stratproject template. It is built with [Python][2] using the [Django Web Framework][1].
+Starter is fully customized django stratproject template. It is built with [Python][2]3.4 using the [Django Web Framework][1]1.8.4.
 
 Create Your Project
 -------------
