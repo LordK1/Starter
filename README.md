@@ -140,9 +140,11 @@ Refrences
 6. [The Twelve Factors][6]
 7. [django-bower][10] 
 8. [django-environ][11]
-9. StackEdit [![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
-  [^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+9.  [StackEdit][14]
 
+------------------------
+
+[![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
 
   [1]: https://www.djangoproject.com/
   [2]: https://www.python.org/
@@ -157,3 +159,4 @@ Refrences
   [11]:http://django-environ.readthedocs.org/en/latest/
   [12]:https://daneden.github.io/animate.css/
   [13]:http://django-extensions.readthedocs.org/en/latest/
+  [14]: https://stackedit.io/
