@@ -14,14 +14,18 @@ Starter is fully customized django stratproject template. It is built with [Pyth
 ===============================================
 for quick installtion of virtualenv and all dependencies you can use below commands :
 	
-	$ mkvirtualenv -p /usr/bin/python3.4 {{ project_name }}-venv
+	$ mkvirtualenv -p $(which python3.4) {{ project_name }}-venv
 	$ workon {{ project_name }}-venv
 	$ pip install -r https://raw.githubusercontent.com/LordK1/Starter/master/requirements/tmp.txt
 	$ django-admin.py startproject --template=https://github.com/LordK1/Starter/archive/master.zip  --extension=py,rst,md,txt,html,json,env {{ project_name }}
 	# Make sure of running Postgres.app 
 	$ createdb {{ project_name }}-DB
-	$ cd {{ project_name }} 
-	$ python manage.py runserver
+	$ cd {{ project_name }}/{{ project_name }}/settings/
+	# Customize your environment variables
+	$ mv local.sample.env local.env & gedit local.env
+	# for install static files with bower 
+	$ bower install 
+ 	$ python manage.py runserver
 
 Goodluck .
 

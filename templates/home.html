@@ -1,16 +1,13 @@
 {% templatetag openblock %} extends "base.html" {% templatetag closeblock %}
 {% templatetag openblock %} block title {% templatetag closeblock %}
-    ~~Home~~
+~~Home~~
 {% templatetag openblock %} endblock {% templatetag closeblock %}
 
 
 {% templatetag openblock %} block scripts {% templatetag closeblock %}
-    <script type="text/javascript">
-        $(function () {
-            $('body').append('<p>{{ project_name }} Worked Fine !!!</p>');
-            if (_) {
-                $('body').append('<p> {{ project_name }} Underscore Worked Fine !?!</p>');
-            }
-        });
-    </script>
+<script type="text/javascript">
+    $(function () {
+        console.log("{{ project_name }} Worked Fine in scripts !");
+    });
+</script>
 {% templatetag openblock %} endblock {% templatetag closeblock %}
