@@ -26,35 +26,17 @@ Goodluck .
 
 
 
+----------------------------------
+
 Create Your Project
 -------------
-*Prerequisites: Django*
+**Prerequisites: Django**
 
 to create a new Django project, run the following command replacing PROJECT_NAME with your actual project name:
 
     $ django-admin.py startproject --template=https://github.com/LordK1/Starter/archive/master.zip  --extension=py,rst,md,txt,html,json,env <project_name>
 
 Afterwards please reference the actual `README.md` you just created in your new project folder, all the references to "{{ project_name }}" will be changed accordingly.
-
-
-
-<i class="icon-pencil"></i> Quick Installtion :
-===============================================
-for quick installtion of virtualenv and all dependencies you can use below commands :
-	
-	$ mkvirtualenv -p /usr/bin/python3.4 {{ project_name }}-venv
-	$ workon {{ project_name }}-venv
-	$ pip install -r https://raw.githubusercontent.com/LordK1/Starter/master/requirements/tmp.txt
-	# Make sure of running Postgres.app 
-	$ createdb {{ project_name }}-DB
-	$ cd {{ project_name }} 
-	$ python manage.py runserver
-
-Goodluck .
-
-
-
------
 
 Make virtual environments
 -------------------------
@@ -158,6 +140,8 @@ Refrences
 6. [The Twelve Factors][6]
 7. [django-bower][10] 
 8. [django-environ][11]
+9. StackEdit [![](https://cdn.monetizejs.com/resources/button-32.png)](https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&summary=true)
+  [^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
 
   [1]: https://www.djangoproject.com/
