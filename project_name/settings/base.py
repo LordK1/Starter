@@ -66,6 +66,7 @@ INSTALLED_APPS = (
     'authtools',
     'pipeline',
     'djangobower',
+    'rest_framework'
     # Custom apps
 )
 
