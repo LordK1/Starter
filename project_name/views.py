@@ -14,4 +14,4 @@ class AboutView(TemplateView):
     """
     About us page
     """
-    template_name = "abount.html"
+    template_name = "about.html"
