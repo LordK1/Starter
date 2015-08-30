@@ -8,6 +8,24 @@ Starter
 
 Starter is fully customized django stratproject template. It is built with [Python][2]3.4 using the [Django Web Framework][1]1.8.4.
 
+
+
+<i class="icon-pencil"></i> Quick Installtion :
+===============================================
+for quick installtion of virtualenv and all dependencies you can use below commands :
+	
+	$ mkvirtualenv -p /usr/bin/python3.4 {{ project_name }}-venv
+	$ workon {{ project_name }}-venv
+	$ pip install -r https://raw.githubusercontent.com/LordK1/Starter/master/requirements/tmp.txt
+	# Make sure of running Postgres.app 
+	$ createdb {{ project_name }}-DB
+	$ cd {{ project_name }} 
+	$ python manage.py runserver
+
+Goodluck .
+
+
+
 Create Your Project
 -------------
 *Prerequisites: Django*
@@ -17,6 +35,24 @@ to create a new Django project, run the following command replacing PROJECT_NAME
     $ django-admin.py startproject --template=https://github.com/LordK1/Starter/archive/master.zip  --extension=py,rst,md,txt,html,json,env <project_name>
 
 Afterwards please reference the actual `README.md` you just created in your new project folder, all the references to "{{ project_name }}" will be changed accordingly.
+
+
+
+<i class="icon-pencil"></i> Quick Installtion :
+===============================================
+for quick installtion of virtualenv and all dependencies you can use below commands :
+	
+	$ mkvirtualenv -p /usr/bin/python3.4 {{ project_name }}-venv
+	$ workon {{ project_name }}-venv
+	$ pip install -r https://raw.githubusercontent.com/LordK1/Starter/master/requirements/tmp.txt
+	# Make sure of running Postgres.app 
+	$ createdb {{ project_name }}-DB
+	$ cd {{ project_name }} 
+	$ python manage.py runserver
+
+Goodluck .
+
+
 
 -----
 
